@@ -1,0 +1,114 @@
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 107, in _run_panda_grounding
+    os.remove(parsed_output)
+FileNotFoundError: [Errno 2] No such file or directory: 'temp.parsed'
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+/tmp/slurmd/job305047/slurm_script: line 46:   428 Killed                  python3 __main__.py "$DOMAIN_FILE" "$PROBLEM_FILE" -e "$EXPERIMENT_NAME" -S "$SEARCH" -H "$HEURISTIC"
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+slurmstepd: error: *** JOB 305047 ON compute01 CANCELLED AT 2025-07-29T19:19:52 DUE TO TIME LIMIT ***
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=305047.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

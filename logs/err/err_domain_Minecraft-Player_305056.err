@@ -1,0 +1,486 @@
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 107, in _run_panda_grounding
+    os.remove(parsed_output)
+FileNotFoundError: [Errno 2] No such file or directory: 'temp.parsed'
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 56, in search_plan
+    result = search(model, heuristic=heuristic_function, node_type=node, n_params=n_params, **s_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Search/astar_search.py", line 35, in search
+    model.initial_state,
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'initial_state'
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 56, in search_plan
+    result = search(model, heuristic=heuristic_function, node_type=node, n_params=n_params, **s_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Search/astar_search.py", line 35, in search
+    model.initial_state,
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'initial_state'
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Input parse error: basic_ios::clear: iostream error
+Reached EOF while reading input.
+Failed to read input data!
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 102, in _run_panda_grounding
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/opt/software/uoa/spack/linux-centos7-x86_64/gcc-12.3.0/python-3.11.7-wmy4edj2kdv5nhctkrjbjxdqthcehqzl/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/../../PandaBuilds/pandaPIgrounder', '-q', '-D', '-e', 'temp.parsed', 'Minecraft-Player-p-003-004-004-004.psas']' returned non-zero exit status 1.
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 56, in search_plan
+    result = search(model, heuristic=heuristic_function, node_type=node, n_params=n_params, **s_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Search/astar_search.py", line 35, in search
+    model.initial_state,
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'initial_state'
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+/tmp/slurmd/job305056/slurm_script: line 46: 13463 Killed                  python3 __main__.py "$DOMAIN_FILE" "$PROBLEM_FILE" -e "$EXPERIMENT_NAME" -S "$SEARCH" -H "$HEURISTIC"
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 107, in _run_panda_grounding
+    os.remove(parsed_output)
+FileNotFoundError: [Errno 2] No such file or directory: 'temp.parsed'
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 102, in _run_panda_grounding
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/opt/software/uoa/spack/linux-centos7-x86_64/gcc-12.3.0/python-3.11.7-wmy4edj2kdv5nhctkrjbjxdqthcehqzl/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/../../PandaBuilds/pandaPIgrounder', '-q', '-D', '-e', 'temp.parsed', 'Minecraft-Player-p-004-004-006-006.psas']' died with <Signals.SIGKILL: 9>.
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 102, in _run_panda_grounding
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/opt/software/uoa/spack/linux-centos7-x86_64/gcc-12.3.0/python-3.11.7-wmy4edj2kdv5nhctkrjbjxdqthcehqzl/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/../../PandaBuilds/pandaPIgrounder', '-q', '-D', '-e', 'temp.parsed', 'Minecraft-Player-p-004-005-004-005.psas']' died with <Signals.SIGKILL: 9>.
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 102, in _run_panda_grounding
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/opt/software/uoa/spack/linux-centos7-x86_64/gcc-12.3.0/python-3.11.7-wmy4edj2kdv5nhctkrjbjxdqthcehqzl/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/../../PandaBuilds/pandaPIgrounder', '-q', '-D', '-e', 'temp.parsed', 'Minecraft-Player-p-004-005-006-006.psas']' died with <Signals.SIGKILL: 9>.
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 102, in _run_panda_grounding
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/opt/software/uoa/spack/linux-centos7-x86_64/gcc-12.3.0/python-3.11.7-wmy4edj2kdv5nhctkrjbjxdqthcehqzl/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/../../PandaBuilds/pandaPIgrounder', '-q', '-D', '-e', 'temp.parsed', 'Minecraft-Player-p-005-005-005-005.psas']' died with <Signals.SIGKILL: 9>.
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 102, in _run_panda_grounding
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/opt/software/uoa/spack/linux-centos7-x86_64/gcc-12.3.0/python-3.11.7-wmy4edj2kdv5nhctkrjbjxdqthcehqzl/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/../../PandaBuilds/pandaPIgrounder', '-q', '-D', '-e', 'temp.parsed', 'Minecraft-Player-p-005-005-006-006.psas']' died with <Signals.SIGKILL: 9>.
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 102, in _run_panda_grounding
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/opt/software/uoa/spack/linux-centos7-x86_64/gcc-12.3.0/python-3.11.7-wmy4edj2kdv5nhctkrjbjxdqthcehqzl/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/../../PandaBuilds/pandaPIgrounder', '-q', '-D', '-e', 'temp.parsed', 'Minecraft-Player-p-006-006-006-006.psas']' died with <Signals.SIGKILL: 9>.
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 102, in _run_panda_grounding
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/opt/software/uoa/spack/linux-centos7-x86_64/gcc-12.3.0/python-3.11.7-wmy4edj2kdv5nhctkrjbjxdqthcehqzl/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/../../PandaBuilds/pandaPIgrounder', '-q', '-D', '-e', 'temp.parsed', 'Minecraft-Player-p-007-007-007-007.psas']' died with <Signals.SIGKILL: 9>.
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 102, in _run_panda_grounding
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/opt/software/uoa/spack/linux-centos7-x86_64/gcc-12.3.0/python-3.11.7-wmy4edj2kdv5nhctkrjbjxdqthcehqzl/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/../../PandaBuilds/pandaPIgrounder', '-q', '-D', '-e', 'temp.parsed', 'Minecraft-Player-p-008-008-008-008.psas']' died with <Signals.SIGKILL: 9>.
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 102, in _run_panda_grounding
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/opt/software/uoa/spack/linux-centos7-x86_64/gcc-12.3.0/python-3.11.7-wmy4edj2kdv5nhctkrjbjxdqthcehqzl/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/../../PandaBuilds/pandaPIgrounder', '-q', '-D', '-e', 'temp.parsed', 'Minecraft-Player-p-009-009-009-009.psas']' died with <Signals.SIGKILL: 9>.
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 102, in _run_panda_grounding
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/opt/software/uoa/spack/linux-centos7-x86_64/gcc-12.3.0/python-3.11.7-wmy4edj2kdv5nhctkrjbjxdqthcehqzl/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/../../PandaBuilds/pandaPIgrounder', '-q', '-D', '-e', 'temp.parsed', 'Minecraft-Player-p-010-010-010-010.psas']' died with <Signals.SIGKILL: 9>.
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 102, in _run_panda_grounding
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/opt/software/uoa/spack/linux-centos7-x86_64/gcc-12.3.0/python-3.11.7-wmy4edj2kdv5nhctkrjbjxdqthcehqzl/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/../../PandaBuilds/pandaPIgrounder', '-q', '-D', '-e', 'temp.parsed', 'Minecraft-Player-p-011-011-011-011.psas']' died with <Signals.SIGKILL: 9>.
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 102, in _run_panda_grounding
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/opt/software/uoa/spack/linux-centos7-x86_64/gcc-12.3.0/python-3.11.7-wmy4edj2kdv5nhctkrjbjxdqthcehqzl/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/../../PandaBuilds/pandaPIgrounder', '-q', '-D', '-e', 'temp.parsed', 'Minecraft-Player-p-012-012-012-012.psas']' died with <Signals.SIGKILL: 9>.
+pandaPIparser is configured as follows
+  Colors in output: true
+  Mode: parsing mode
+  Parameter splitting: false
+  Conditional effects: exponential encoding
+  Disjunctive preconditions as HTN: false
+  Replace goal with action: false
+  Output: pandaPI format
+Traceback (most recent call last):
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 154, in <module>
+    main()
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/__main__.py", line 145, in main
+    result = search_plan(
+             ^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/planner.py", line 55, in search_plan
+    model = grounder()
+            ^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 32, in __call__
+    self.sas_file = self._run_panda_grounding()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/panda_ground.py", line 102, in _run_panda_grounding
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/opt/software/uoa/spack/linux-centos7-x86_64/gcc-12.3.0/python-3.11.7-wmy4edj2kdv5nhctkrjbjxdqthcehqzl/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/scratch/users/t02pa24/Project MSC/Pytrich/Pytrich/Grounder/../../PandaBuilds/pandaPIgrounder', '-q', '-D', '-e', 'temp.parsed', 'Minecraft-Player-p-013-013-013-013.psas']' died with <Signals.SIGKILL: 9>.
+slurmstepd: error: Detected 14 oom-kill event(s) in StepId=305056.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

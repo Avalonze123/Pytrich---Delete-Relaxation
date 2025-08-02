@@ -1,0 +1,5 @@
+usage: __main__.py [-h] [-en EXPERIMENTNAME] [-dn DOMAINNAME]
+                   [-pn PROBLEMNAME] [--sas_file SAS_FILE] [-tor] [-mg] [-ms]
+                   [-ml] [-H HEURISTIC] [-A AGGREGATION] [-S SEARCH] [-N NODE]
+                   [domain] [problem]
+__main__.py: error: Problem file 'ipc2023-domains/total-order/SharpSAT/pfile_*.hddl' does not exist.
