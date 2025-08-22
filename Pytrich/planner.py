@@ -12,6 +12,8 @@ from .Heuristics.blind_heuristic import BlindHeuristic
 from .Heuristics.tdg_heuristic import TaskDecompositionHeuristic
 from .Heuristics.lmcount_heuristic import LandmarkCountHeuristic
 from .Heuristics.novelty_heuristic import NoveltyHeuristic
+from .Heuristics.hmax_heuristic import HmaxHeuristic
+from .Heuristics.del_relax_heuristic import DeleteRelaxationHeuristic 
 # search
 from .Search.astar_search import search as astar_search
 from .Search.blind_search import search as blind_search
@@ -30,7 +32,8 @@ HEURISTICS = {
     "LMCOUNT"  : LandmarkCountHeuristic,
     "TDG"      : TaskDecompositionHeuristic,
     "NOVELTY"  : NoveltyHeuristic,
-    "HMAX"     : HmaxHeuristic
+    "HMAX"     : HmaxHeuristic,
+    "DELRELAX" : DeleteRelaxationHeuristic
 }
 
 NODES = {
